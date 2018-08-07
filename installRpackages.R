@@ -32,3 +32,6 @@ install.packages("reshape2")
 install.packages("htmlwidgets")
 install.packages("maps")
 install.packages("mapproj")
+# New stuff for https://github.com/adamssv/u025_1
+install.packages("methods")
+install.packages("bitops")
