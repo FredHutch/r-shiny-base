@@ -35,3 +35,10 @@ install.packages("mapproj")
 # New stuff for https://github.com/adamssv/u025_1
 install.packages("methods")
 install.packages("bitops")
+# New stuff for genomics-repo-app
+install.packages("data.table")  
+install.packages("shinythemes") 
+install.packages("httr") 
+install.packages("jsonlite")
+install.packages("REDCapR") 
+install.packages("aws.s3")
