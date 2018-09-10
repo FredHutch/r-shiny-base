@@ -36,7 +36,7 @@ install.packages("mapproj")
 install.packages("methods")
 install.packages("bitops")
 # New stuff for genomics-repo-app
-install.packages("data.table")  
+install.packages("data.table", dependencies=TRUE) 
 install.packages("shinythemes") 
 install.packages("httr") 
 install.packages("jsonlite")
