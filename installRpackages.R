@@ -42,3 +42,8 @@ install.packages("httr")
 install.packages("jsonlite")
 install.packages("REDCapR") 
 install.packages("aws.s3")
+# New stuff for https://github.com/FredHutch/hawnmtb
+install.packages("DT")
+install.packages("igraph")
+install.packages("intergraph")
+install.packages("ggnetwork")
