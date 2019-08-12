@@ -1,3 +1,5 @@
+install.packages("devtools")
+install.packages("BiocManager")
 install.packages("shiny")
 install.packages("shinyBS")
 install.packages("shinythemes")
