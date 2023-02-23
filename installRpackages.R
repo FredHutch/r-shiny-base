@@ -47,7 +47,7 @@ install.packages("DT")
 install.packages("igraph")
 install.packages("intergraph")
 install.packages("ggnetwork")
-# New stuff for https://github.com/FredHutch/FredHutch/alg-fairness-app-wireframe
+# New stuff for https://github.com/FredHutch/alg-fairness-app-wireframe
 install.packages("bigrquery")
 install.packages("caret")
 install.packages("fontawesome")
