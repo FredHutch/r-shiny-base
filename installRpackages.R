@@ -47,3 +47,21 @@ install.packages("DT")
 install.packages("igraph")
 install.packages("intergraph")
 install.packages("ggnetwork")
+
+###
+
+pkg <- c("shinty", "shinyBS", "shinythemes", "readxl", "tidyverse", "mi", "descr", "pROC", "readxl", "plyr", "tidyverse", "assertthat", "ggplot2", "cowplot", "viridis", "ggthemes", "car", "ggExtra", "scales", "xtable", "markdown", "htmltools", "rsconnect", "rmeta", "shiny.semantic", "DT", "dplyr", "plotly", "webshot", "reshape2", "htmlwidgets", "maps", "mapproj", "methods", "bitops", "data.table", "httr", "jsonlite", "REDCapR", "aws.s3", "DT", "igraph", "intergraph", "ggnetwork")
+
+pkgNames <- names(installed.packages()[, "Package"])
+
+installed <- pkg %in% pkgNames
+
+nres <- cbind(pkg, installed)
+
+print(nres)
+
+if (any(!installed)) {
+    q("no", 1)
+}
+
+
