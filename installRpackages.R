@@ -49,3 +49,7 @@ install.packages("intergraph")
 install.packages("ggnetwork")
 # New stuff for https://github.com/FredHutch/virscan-qc
 install.packages("shinydashboard")
+install.packages("ggforce")
+install.packages("openxlsx")
+install.packages("stringr")
+install.packages("svglite")
