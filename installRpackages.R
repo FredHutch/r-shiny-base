@@ -47,3 +47,5 @@ install.packages("DT")
 install.packages("igraph")
 install.packages("intergraph")
 install.packages("ggnetwork")
+# New stuff for https://github.com/FredHutch/virscan-qc
+install.packages("shinydashboard")
