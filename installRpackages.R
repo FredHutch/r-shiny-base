@@ -1,3 +1,4 @@
+options(pkgType='source')
 install.packages("shiny")
 install.packages("shinyBS")
 install.packages("shinythemes")
